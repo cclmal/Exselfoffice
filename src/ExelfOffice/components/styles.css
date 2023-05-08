@@ -1,0 +1,8 @@
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px) scale(1.05); /* Ajusta el valor de 'scale' según lo desees */
+  box-shadow: 0 15px 25px -5px rgb(0 0 0 / 0.2), 0 6px 8px -4px rgb(0 0 0 / 0.1);
+}

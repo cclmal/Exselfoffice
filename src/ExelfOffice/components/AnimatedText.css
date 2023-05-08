@@ -1,0 +1,10 @@
+.animated-text {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s, transform 1s;
+}
+    
+.visible .animated-text {
+opacity: 1;
+transform: translateY(0);
+}
